@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+/* font-family: 'Open Sans Condensed', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+/* 
+Colors:
+#f8d82f 
+*/
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: black;
+}
+
+p {
+    line-height: 0.1em;
+    text-align: center;
+    letter-spacing: 0.6em;
+}
+
+.title-left {
+    position: absolute;
+    top: 0;
+    right: 50vw;
+    background-color: #f8d82f;
+    padding: 20px 15px;
+}
+
+
+.title-left h1 {
+    font-size: 60px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: "Anton", "Lato", sans-serif;
+}
+
+#background-container {
+    overflow: hidden;
+}
+
+.background-image {
+    background-image: url("https://s3.amazonaws.com/learn-verified/cover.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -100;
+}
+
+.bottom {
+    margin-top: 800px;
+    width: 800px;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fad821;
+}
+
+.bottom-content {
+    text-align: center;
+    padding: 2vw;
+    padding-top: 100px;
+    letter-spacing: 2px;
+}
+
+#happy {
+    line-spacing: 0.5em;
+    font-size: 200px;
+    padding: unset;
+    margin: 0;
+    font-weight: bolder;
+    /* border: 2px solid red; */
+    padding: 15px;
+    padding-top: 25px;
+    line-height: 1;
+    font-family: "Anton", "Lato", sans-serif;
+}

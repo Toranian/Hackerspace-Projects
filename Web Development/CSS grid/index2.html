@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  .wrapper {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    gird-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    grid-gap: 1em;
+  }
+
+  .wrapper {
+    background: #eee;
+    padding: 1em;
+  }
+
+  .wrapper > div:nth-child(odd) {
+    background: #ddd;
+    padding: 1em;
+  }
+</style>
+</head>
+<body>
+  <div class="wrapper">
+    <div>
+      Lorem ipsum dolor sit amet.
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet.
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet.
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet.
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet.
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet.
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet.
+    </div>
+  </div>
+
+</body>
+</html>

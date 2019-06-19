@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Grid</title>
+  <style>
+
+    .wrapper {
+      display: grid;
+      grid-template-columns: 70% 30%;
+      grid-column-gap: 1em;
+      grid-row-gap: 1em;
+      grid-gap: 1em;
+    }
+
+    .wrapper {
+      background: #eee;
+      padding: 1em;
+    }
+
+    .wrapper > div:nth-child(odd) {
+      background: #ddd;
+      /* margin: 10px; */
+    }
+
+    .img {
+      background-image: url("dude.jpg");
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+
+  <div class="wrapper">
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos inventore harum reiciendis quam ducimus, aspernatur, accusantium molestiae nemo soluta! Aspernatur vero dolor dolorem quaerat possimus id, doloremque quod consequatur nulla tempora, ipsa laudantium, obcaecati. Doloremque pariatur neque porro veniam ut quis veritatis nesciunt optio mollitia, excepturi praesentium voluptas omnis laborum assumenda, cum ipsam eius hic laboriosam tenetur rem blanditiis, soluta aut! Deleniti laborum distinctio blanditiis optio facilis, sunt odio, nostrum itaque rerum dolorum, aperiam placeat odit, quasi et unde officia.
+    </div>
+
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptas facilis, quod laudantium suscipit libero numquam explicabo modi eius ducimus vel itaque amet asperiores id, recusandae odit mollitia nostrum, eveniet aut. Explicabo voluptatum facilis ipsam quos odit nesciunt doloribus velit vitae ducimus eum error sed, autem, tempora aliquid provident. Sapiente id odio necessitatibus, nihil neque, asperiores reprehenderit fuga architecto iure voluptates provident? Dignissimos minima voluptatem error incidunt illum natus dolorem. Consectetur quidem praesentium magnam dolore repudiandae sed inventore eius autem.</div>
+
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ea repellendus recusandae perspiciatis a, non cupiditate accusantium tempora, autem deserunt provident quaerat officia! Culpa, ipsum. Amet dolor suscipit vel tenetur illum dicta, veritatis voluptatem mollitia eos libero obcaecati temporibus sunt nulla, facere corrupti culpa delectus iusto fugit excepturi quisquam. Reiciendis deserunt, harum ipsum autem reprehenderit, eaque velit saepe voluptatibus, quidem recusandae rerum molestiae libero. Maiores temporibus voluptatibus quia eligendi earum tenetur dignissimos dicta assumenda. Suscipit alias officiis nihil, autem maiores.
+    </div>
+
+
+  </div>
+
+
+
+</body>
+
+
+</html>

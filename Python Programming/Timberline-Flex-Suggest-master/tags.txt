@@ -1,0 +1,14 @@
+Tags:
+
+tec = technology
+tla = teacher led activity
+lc = learning commons
+ct = critical thinking
+cmn = Communication
+crt = creative thinking
+pci = positive personal and cultural identity
+par = personal awareness and responsibility
+scl = social responsibility
+gm = games / gaming
+wk = work
+pe = physical activity

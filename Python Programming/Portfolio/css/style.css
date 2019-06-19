@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+/* font-family: 'Questrial', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    background-color: black;
+    color: black;
+}
+
+
+main {
+  background-color: #374046;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: -353px;
+    transition-duration: 1s;
+}
+
+nav:hover {
+  left: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+}
+
+nav ul li {
+    color: white;
+    display: inline;
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    display: block;
+    border-bottom: 2px white solid;
+    border-top: 2px white solid;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.383);
+}
+
+nav ul li:last-child {
+    border-right: 2px white solid;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.content {
+    grid-template-columns: 1fr 3fr 1fr;
+    display: inline-grid;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.content .text {
+    grid-column: 2 / 3;
+    float: left;
+    /* background-color: ; */
+    /* background-color: rgb(39, 39, 39); */
+    border-radius: 8px;
+    /* color: white; */
+    padding: 15px;
+}
+
+#backgroundimage {
+    background-image: url("../img/isaacmorrow.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+    position: static;
+    /* margin-bottom: 100vh; */
+}

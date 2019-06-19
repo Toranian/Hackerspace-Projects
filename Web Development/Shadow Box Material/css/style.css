@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.showcase {
+  background-image: url("../showcase-image.jpg");
+  background-position: center;
+  z-index: -100;
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 1em;
+  margin: 1em;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.wrapper div {
+  padding: 15px;
+  border-radius: 8px;
+  height: 300px;
+  /* width: 200px; */
+}
+
+/* .wrapper > div:nth-child(odd) {
+  background-color: grey;
+}
+
+.wrapper > div:nth-child(even) {
+  background-color: #ddd;
+} */
+
+.wrapper div {
+  background-color: white;
+  transition-duration: 0.5s;
+}
+
+.wrapper div:hover {
+  /* background-color: black; */
+  /* transform: translateX(-10px); */
+  transform: translateY(-10px);
+  box-shadow: 10px 10px rgba(125, 125, 125, 0.7);
+  background-color: white;
+
+}

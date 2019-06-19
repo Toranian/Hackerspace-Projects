@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #4169e1;
+  font-family: "montserrat", sans-serif;
+}
+
+#tetris-image {
+  float: right;
+  width: 64px;
+}
+
+#wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 840px;
+}
+
+#wrapper section {
+  background-color: #6495ed;
+  padding: 15px 20px;
+  width: 640px;
+  /* float: right; */
+  /* flex: 50%; */
+}
+
+#song {
+  text-align: center;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+
+footer p {
+  font-style: italic;
+  /* text-align: center; */
+  margin: 15px;
+  font-size: 12px;
+}
+
+section ul {
+  list-style-type: none;
+}
+
+section #song li::first-letter {
+  font-weight: bold;
+}
+
+#leftmenu {
+  min-height: 100%;
+  background-color: white;
+  width: 200px;
+  flex: 25%;
+  /* float: left; */
+  padding: 10px;
+  /* padding-left: 25px; */
+  float: left;
+}
+
+#leftmenu ul {
+  padding-left: 20px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+footer {
+  max-width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer p {
+  padding: unset;
+  margin: 0;
+  padding-top: 15px;
+}
+
+h1 {
+  margin: unset;
+  margin-top: 15px;
+  font-family: "Orbitron", sans-serif;
+}
+
+h3 {
+  margin: unset;
+  margin-top: 20px;
+  font-family: "Orbitron", sans-serif;
+
+}
+
+#site-header {
+  background-color: white;
+  margin-top: 0;
+}
+
+#site-header h1 {
+  margin: 0;
+  padding: 15px;
+}
+
+#mainmenu {
+  background-color: #ffa500;
+  color: black;
+  display: block;
+}
+
+
+
+
+/* #mainmenu li:first-child {
+  background-color: #ff8c00;
+}
+
+#mainmenu li {
+  padding: 15px;
+  display: inline-block;
+  color: black;
+  margin: 0;
+  border: 2px solid red;
+}
+
+
+#mainmenu li a {
+  text-decoration: none;
+  color: black;
+} */
+
+#mainmenu li {
+  list-style-type: none;
+  display: inline-block;
+  /* padding: 15px; */
+  margin: 0;
+  transition-duration: 0.5s;
+}
+
+#mainmenu li:hover {
+  background-color: #ff8c00;
+  margin: 0;
+  transition-duration: 0.5s;
+}
+
+#mainmenu li a {
+  display: block;
+  padding: 15px;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  color: white !important;
+  background-color: #ff8c00;
+}

@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #2d3436; */
+  background-color: white;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.btn {
+  display: block;
+  position: relative;
+  color: white;
+  font-family: "montserrat", sans-serif;
+  text-decoration: none;
+  border: 2px solid blue;
+  padding: 15px 50px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+  margin: auto;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.btn::before {
+  background-color: blue;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+  z-index: -2;
+  transition: all 0.8s ease;
+  width: 100%;
+  height: 0;
+  transform: translate(-50%, -50%) rotate(-0deg);
+}
+
+.btn:hover::before {
+  height: 380%;
+  color: white;
+}
+
+.epicbutton {
+  display: block;
+  position: relative;
+  color: white;
+  font-family: "montserrat", sans-serif;
+  text-decoration: none;
+  border: 2px solid blue;
+  padding: 15px 50px;
+  text-transform: uppercase;
+  overflow: hidden;
+  /* transition: 1s all ease; */
+  margin: auto;
+  /* border-radius: 20px; */
+  z-index: 1;
+  transition-duration: 1s;
+
+}
+
+.epicbutton::before {
+  position: absolute;
+  content: "";
+  background-color: red;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transition-duration: 1s;
+  transition: all 0.8s ease;
+}
+
+.epicbutton:hover::before {
+  height: 100%;
+  transition-duration: 1s;
+}
+
+.github-button a {
+  padding: 10px 15px;
+  border: 2px solid #29b6f6;
+  font-size: 18px;
+  display: inline;
+}
+
+ul {
+  position: fixed;
+  list-style-type: none;
+  top: 0;
+  left: 0;
+}
+
+ul li {
+  float: left;
+  border: 2px solid red;
+  padding: 15px;
+}
+
+.dropdown {
+  top: -100%;
+  position: fixed;
+  border: 2px solid blue
+  transition-duration: 1s;
+}
+
+.menu:hover > .dropdown {
+  top: 15px;
+}
+
+
+
+
+
+
+
+
+.left-arrow {
+	border-color: transparent black;
+	border-style: solid;
+	border-width: 20px 20px 20px 0px;
+	height: 0px;
+	width: 0px;
+}
+
+.right-arrow {
+	border-color: transparent black;
+	border-style: solid;
+	border-width: 20px 0px 20px 20px;
+	height: 0px;
+	width: 0px;
+}
+
+.down-arrow {
+	border-color: black transparent;
+	border-style: solid;
+	border-width: 20px 20px 0px 20px;
+	height: 0px;
+	width: 0px;
+}
+
+.up-arrow {
+	border-color: black transparent;
+	border-style: solid;
+	border-width: 0px 20px 20px 20px;
+	height: 0px;
+	width: 0px;
+}

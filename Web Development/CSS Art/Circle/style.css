@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(25, 25, 25, 0.9);
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.circle {
+  position: absolute;
+  background-image: linear-gradient(-45deg, #00F260, #0575E6);
+  width: 700px;
+  height: 700px;
+  margin: 10% auto;
+  top: 0;
+  bottom: 0;
+  left: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: 1s;
+  box-shadow: 0 0 20px 20px rgba(25, 25, 25, 0.9);
+}
+
+#bird {
+  position: absolute;
+  background-image: url("hummingbird2.png");
+  height: 100%;
+  width: 90%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 20%;
+  margin-left: 10%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  /* transform: rotateZ(15deg); */
+  /* z-index: 1; */
+}
+
+header {
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 15%;
+}
+
+header h1 {
+  color: white;
+  font-size: 50px;
+}
+
+header p {
+  font-family: "Roboto"
+  color: white;
+  font-size: 50px;
+  line-spacing: 2px;
+  line-height: 35px;
+  /* padding: 15px; */
+}
+
+.content {
+  margin: 15% auto;
+  padding: 15px;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+}
+
+
+nav {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  box-shadow: 0px 3px 20px black;
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  background-color: #474747;
+}
+
+nav ul li {
+  display: inline;
+  float: left;
+}
+
+nav ul li a {
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  transition-duration: 0.5s;
+  background-image: none;
+}
+
+nav ul li a:hover {
+  background-color: #03acab;
+  border-radius: 4px;
+
+
+}

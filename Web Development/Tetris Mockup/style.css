@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #4169e1;
+  font-family: "montserrat", sans-serif;
+}
+
+#tetris-image {
+  float: right;
+  width: 64px;
+}
+
+#wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 840px;
+}
+
+#wrapper section {
+  background-color: #6495ed;
+  padding: 15px 20px;
+  width: 640px;
+  /* float: right; */
+  /* flex: 50%; */
+}
+
+#song {
+  text-align: center;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+
+footer p {
+  font-style: italic;
+  /* text-align: center; */
+  margin: 15px;
+  font-size: 12px;
+}
+
+section ul {
+  list-style-type: none;
+}
+
+section #song li::first-letter {
+  font-weight: bold;
+}
+
+#leftmenu {
+  min-height: 100%;
+  background-color: white;
+  width: 200px;
+  flex: 25%;
+  /* float: left; */
+  padding: 10px;
+  /* padding-left: 25px; */
+  float: left;
+}
+
+#leftmenu ul {
+  padding-left: 20px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+footer {
+  max-width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+h1 {
+  margin: unset;
+  margin-top: 15px;
+}
+
+h3 {
+  margin: unset;
+  margin-top: 20px;
+}
+
+/* Navbar */
+#top {
+  
+}
